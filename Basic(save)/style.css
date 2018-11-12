@@ -1,0 +1,47 @@
+body {
+    background-color: lightgreen;
+}
+
+#main {
+    background-color:lightyellow;
+    position:absolute;
+    top:15%;
+    left:32%;
+    height:200px;
+    width:400px;
+}
+
+#round {
+    position: absolute;
+    left:32%;
+}
+
+#leftScoreDisplayer {
+    position:absolute;
+    top:30%;
+}
+
+#rightScoreDisplayer {
+    position:absolute;
+    top:30%;
+    right:0%;
+}
+
+.displays{
+    position: absolute;
+    top:40%;
+}
+
+#left {
+    left:35%;
+}
+
+#right{
+    left:55%;
+}
+button {
+    position:absolute;
+    top: 70%;
+    left:38%;
+    border-radius:5px;
+}

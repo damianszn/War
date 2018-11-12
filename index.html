@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>War</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <!-- G Font -->
+    <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Background source : https://www.designtrends.com/graphic-web/backgrounds/camo-backgrounds.html -->
+</head>
+<body>
+    <!-- Header & Round displayer -->
+    <header class="container"><p>WAR</p></header>
+    <div class="container" id="stick">.</div>
+    <div class="container" id="round">Round number : </div>
+    <!-- Player scores -->
+    <section class="row">
+        <div class="col-3" id="leftScoreDisplayer">.</div>
+        <div class="offset-6"></div>
+        <div class="col-3" id="rightScoreDisplayer">.</div>
+    </section>
+    <!-- Play area -->
+    <article class="container" id="main">
+        <div id="announcer">.</div>
+        <div class="playarea">
+            <div id="left">.</div>
+            <div id="right">.</div>
+        </div>
+        <button type="button" id="button" class="btn btn-primary btn-block" onclick="nextRound()">Next Round</button>
+    </article>
+    <!-- Footer -->
+    <footer class="container fixed-bottom"><p id="footer">Grab a friend, choose a side and start playing !</p></footer>
+    <script src="app.js"></script>
+</body>
+</html>

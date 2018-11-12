@@ -1,0 +1,163 @@
+body{
+    background-image: url(background.jpg) !important;
+    width:100vw;
+    height:100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Allerta Stencil', sans-serif !important;
+}
+
+header{
+    height:10vh;
+    width:40vw !important;
+    display:flex !important;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightyellow;
+    border:2px solid black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size:45px;
+}
+
+#stick{
+    width:1px !important;
+
+    background-color:black;
+}
+
+#round{
+    width:25vw;
+    text-align: center;
+
+    background-color: lightyellow;
+    border:2px solid black;
+    border-radius:15px;
+}
+
+#leftScoreDisplayer{
+    background-color: lightyellow;
+    border:2px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#rightScoreDisplayer{
+    background-color: lightyellow;
+    border:2px solid black;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#main{
+    display:flex;
+    flex-direction: column;
+
+
+    height:50vh;
+    width:40vw !important;
+
+    background-color: lightyellow;
+    border:2px solid black;
+    border-radius:15px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#announcer{
+    height:10vh;
+}
+
+#playarea{
+    height:20vh;
+    display:flex;
+    justify-content: space-between !important;
+}
+
+.imgCard {
+    height:30vh;
+    width:auto;
+}
+
+#left{
+    display:inline-block;
+    width:17vw;
+    margin-left:auto;
+    align-content: center;
+}
+
+#left img{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#right{
+    display:inline-block;
+    width:17vw;
+    margin-right:auto;
+    align-content: center;
+}
+
+#right img{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#button{
+    background-color: lightgreen !important;
+    color:black;
+    border-color:black;
+}
+
+footer{
+    display: block;
+    height:10vh;
+    width:40vw !important;
+
+    background-color: lightyellow;
+    border:2px solid black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Phones */
+@media screen and (max-width: 700px) {
+    body {
+        font-size:2vh !important;
+    }
+    #round{
+        width:40vw;
+    }
+    #announcer{
+        position: relative;
+        bottom:-5vh;
+    }
+    #main{
+        width:65vw !important;
+    }
+    #left{
+        width:26vw !important;
+    }
+    #right{
+        width:26vw !important;
+    }
+    .imgCard{
+        height:40vw !important;
+        width:auto;
+    }
+    button{
+        position: relative;
+        bottom:-5vh;
+    }
+    footer{
+        width:65vw !important;
+        height:20vw !important;
+    }
+}
