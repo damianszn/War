@@ -9,6 +9,8 @@ It's my take at reproducing the classic "war" game played with regular cards.
 I did the back-end part in + - 4 hours. A week later i did the design and it took me another 4-5 hours.
 It's an exercise given by my Becode coaches.
 
+You can try the game by clicking the link above the repository.
+
 ## The instructions
 
 This game of Bataille has only 10 cards going from 1 to 10.  
